@@ -1,6 +1,7 @@
 from sklearn import svm
 import random
 from sklearn.model_selection import train_test_split
+from matplotlib import pyplot
 
 # total sample size
 sample = 10000

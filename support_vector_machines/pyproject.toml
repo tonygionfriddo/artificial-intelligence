@@ -5,5 +5,11 @@ requires = ["setuptools", "wheel"]
 name = "support_vector_machines"
 version = "0.0.1"
 dependencies = [
-    "scikit-learn"
+    "scikit-learn",
+    "matplotlib",
+    "pandas"
 ]
+
+[tool.setuptools.packages.find]
+include = ["support_vector_machines"]
+
